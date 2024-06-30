@@ -1,0 +1,61 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+}
+
+.stopwatch {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+#display {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-color: rgb(135,151,151); */
+    color: black;
+}
+
+button:hover {
+    background-color: transparent;
+}
+
+button:active {
+    /* background-color: rgb(135,151,151); */
+    
+}
+
+#laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.lap-time {
+    margin: 5px 0;
+    font-size: 1em;
+}
